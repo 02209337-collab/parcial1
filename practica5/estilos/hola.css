@@ -1,0 +1,36 @@
+BODY{
+	background: indianred;
+	color: WHITE;
+	font-family: CENTURY GOTHIC ;
+}
+
+
+/*Titulo con otro tipo de letra y otro color*/
+
+h1{
+   font-family: courier;
+   color: lightpink;
+}
+
+/*el parrafo 2 es del diablo,ponerlo en negritas y cursiva*/
+
+
+.latin{
+
+    font-weight: bolder;
+	font-style: itañic;
+}
+
+/*Enlace 2 de color verde y negritas*/
+
+a{
+   color: green;
+   font-weight: bolder;
+}
+
+/*Enlace 1 de color amarrillo y tamaño 20*/
+
+p a{
+	color:yellow;
+	font-size: 20px;
+}

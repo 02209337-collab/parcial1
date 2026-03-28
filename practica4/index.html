@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Alexis Gonzalez - 633</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h3>Por: Alexis Gonzalez 633</h3>
+
+	<p>Los formularios son campos que permiten la entrada de datos,con el objetivo de que la pagina pueda interactuar con el ususario.</p>
+	<p>Los datos son solicitados son, nombres, fecgas de nacimiento, telefonos, correos, ciudades, dinero, etc</p>
+
+
+	<hr>
+	<h3>Este es un ejemplo de un formulario:</h3>
+
+	<form>
+		<label>Nombre:</label>
+		<input type="text" name="nombre" maxlength="150" size="50" placeholder="Nombre completo:" required>
+		<br>
+
+		<label>Correo electronico:</label>
+		<input type="email" name="correo" placeholder="ingresa correo" required>
+
+		<br>
+		<label>Contraseña</label>
+		<input type="password" name="pass" placeholder="Minimo 8 caracteres" minlength="8" required>
+
+		<br>
+		<label>Fecha de Nacimiento</label>
+		<input type="date" name="fecha" required>
+		<br>
+		<label>Nacionalidad</label>
+		<select>
+			<option selected disabled>Selecciona un pais</option>
+			<option>Mexico</option>
+			<option>Canada</option>
+			<option>USA</option>
+			<option>España</option>
+			<option>Alemania</option>
+			<option>Francia</option>
+			<option>Argentina</option>
+			<option>Brasil</option>
+			<option>China</option>
+			<option>Rusia</option>
+		</select>
+
+		<br>
+
+		<label>Elige tus pasatiempos</label> <br>
+
+		<input type="checkbox" name="hobbie"> leer <br>
+        <input type="checkbox" name="hobbie"> dibujar <br>
+        <input type="checkbox" name="hobbie"> Escuchar musica <br>
+        <input type="checkbox" name="hobbie"> Practicar algun deporte <br>
+        <input type="checkbox" name="hobbie"> Pintar <br>
+        <input type="checkbox" name="hobbie"> Ver la tele <br>
+        <input type="checkbox" name="hobbie"> Jugar Videojuegos <br>
+
+        <br>
+        <label>Selecciona sexo:</label>
+
+        Hombre <input type="radio" name="genero">
+        Mujer <input type="radio" name="genero">
+        Prefiero no decirlo <input type="radio" name="genero">
+
+        <br>
+        <label>Deja tu mensaje:</label>
+        <textarea placeholder="Deja tu mensaje"></textarea>
+
+
+
+
+		<br>
+
+
+
+
+		<input type="submit" name="boton" value="Contactar al 633">
+
+		<input type="reset" name="borrar" value="Limpiar">
+
+
+    <hr>
+    <ul>
+    	<li><a href="../index.html">index</a></li>
+
+
+
+    	
+    </ul>
+
+
+
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>
